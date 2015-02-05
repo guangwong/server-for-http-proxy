@@ -1,4 +1,4 @@
-var ServerForHTTPPRoxy = require("./lib/server-for-http-proxy");
+var ServerForHTTPPRoxy = require("./lib/http-server-supported-https");
 
 exports.Server = ServerForHTTPPRoxy.Server;
 exports.createServer = function(requestListener) {
