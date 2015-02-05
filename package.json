@@ -1,0 +1,32 @@
+{
+  "name": "server-for-http-proxy",
+  "version": "0.1.0",
+  "description": "一个支持 HTTPS （作为 Method Connect）的 HTTP 代理用 Server 类。 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guangwong/server-for-http-proxy.git"
+  },
+  "author": "guangwong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guangwong/server-for-http-proxy/issues"
+  },
+  "homepage": "https://github.com/guangwong/server-for-http-proxy",
+  "keywords": [
+    "https",
+    "http",
+    "proxy",
+    "http"
+  ],
+  "dependencies": {
+    "async": "~0.9.0",
+    "bluebird": "~2.5.1",
+    "debug": "~2.1.0",
+    "lru-cache": "~2.5.0",
+    "tls-connect": "~0.2.2"
+  }
+}
